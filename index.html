@@ -87,15 +87,15 @@
 			<!-- 黑白切换 -->
 			<div class="black" style="width: 50%; text-align: left;">
 				&nbsp;&nbsp;
-				<div id="bgChange" onclick="bgChange();" title="晚上" class="font">晚上</div>
+				<div id="bgChange" onclick="bgChange();" ontouchend="this.onclick();" title="晚上" class="font">晚上</div>
 			</div>
 
 			<!-- 导航 -->
 			<div style="width: 50%; text-align: right;">
-				<a href="http://59.110.241.52/solo" title="My Blogs" class="font">
+				<a href="http://59.110.241.52/solo" title="My Blogs" class="font" ontouchend="location.href=this.href;">
 					我的博客 </a> &nbsp;&nbsp; <a href="https://github.com/veasion"
-					title="My Github." class="font"> Github </a> &nbsp;&nbsp;
-				<a href="http://59.110.241.52" title="My Website." class="font"> Veasion </a> &nbsp;&nbsp;
+					title="My Github." class="font" ontouchend="location.href=this.href;"> Github </a> &nbsp;&nbsp;
+				<a href="http://59.110.241.52" title="My Website." class="font" ontouchend="location.href=this.href;"> Veasion </a> &nbsp;&nbsp;
 			</div>
 		</div>
 
@@ -104,7 +104,7 @@
 			<div id="h1" class="black">欢迎来到我的首个Github Pages网站页面！</div>
 			<div class="font">
 				<a href="https://github.com/veasion" title="My Github."
-					style="text-decoration: none" target="_blank"> ===Github=== </a> <br />
+					style="text-decoration: none" target="_blank" ontouchend="location.href=this.href;"> ===Github=== </a> <br />
 				<span style="color: red;"> -----Veasion----- </span>
 			</div>
 			<br />
