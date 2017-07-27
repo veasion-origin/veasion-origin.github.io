@@ -36,6 +36,9 @@ window.onclick = function(event){
 old && old();
 createHeart(event);
 }
+window.ontouchend = function(event){
+	createHeart(event);
+}
 }
 function createHeart(event){
 var d = document.createElement("div");
