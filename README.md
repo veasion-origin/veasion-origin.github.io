@@ -1,1 +1,1 @@
-﻿[My First Github Pages](http://luozhuowei.cn)
+﻿[My Website.](http://59.110.241.52)
